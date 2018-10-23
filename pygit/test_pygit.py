@@ -8,6 +8,7 @@ app = Flask(__name__)
 storage_path = os.getcwd() + '/test_storage'
 os.makedirs(storage_path)
 
+
 def test_save_repository():
     files = {
         'file': open('test.txt', 'wb+')

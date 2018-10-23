@@ -1,0 +1,2 @@
+[flake8]
+exclude = .git,__pycache__,venv/, ./runserver.py,./pygit/__init__.py
